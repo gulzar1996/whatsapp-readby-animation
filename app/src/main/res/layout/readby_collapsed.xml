@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/readby_collapsed"
     android:layout_width="match_parent"
     android:layout_height="72dp">
 
@@ -21,7 +22,7 @@
         app:srcCompat="@android:color/black" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/lable_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -33,7 +34,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/label_read_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -41,5 +42,5 @@
         android:textColor="#747474"
         android:textSize="13sp"
         app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/lable_name" />
 </android.support.constraint.ConstraintLayout>
