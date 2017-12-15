@@ -14,22 +14,21 @@
         android:layout_marginBottom="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="h,1:1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:color/black" />
+        app:srcCompat="@drawable/circle" />
 
     <TextView
         android:id="@+id/lable_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="14dp"
         android:text="Gulzar Ahmed"
         android:textColor="#212121"
-        android:textSize="17sp"
+        android:textSize="19sp"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -40,7 +39,42 @@
         android:layout_marginStart="20dp"
         android:text="9 December, 2:52 PM"
         android:textColor="#747474"
-        android:textSize="13sp"
+        android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/lable_name" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/label_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:textColor="#747474"
+        android:textSize="15sp"
+        android:text="Read"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/lable_name" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/label_dlivered_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="9 December, 2:52 PM"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label_read_time" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/label_delivered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Delivered"
+        android:textColor="#747474"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/label_read" />
 </android.support.constraint.ConstraintLayout>
