@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/touch"
+    tools:context="com.github.gulzar1996.whatsappreadbyanim.MainActivity">
+    <include layout="@layout/readby_collapsed"/>
+
+
+</android.support.constraint.ConstraintLayout>
