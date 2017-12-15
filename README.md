@@ -1,5 +1,5 @@
 
-## **WhatsApp Ready Animation**
+## **WhatsApp Readby Animation**
 Implemeting WhatsApp readby animation using ConstraintLayout.
 ![anim_none](gif/whatsapp_anim_imp.gif)
 
